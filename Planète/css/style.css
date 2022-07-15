@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #F6F6F6;
+}
+
+header nav {
+  background-color: #1B2430;
+  width: 100%;
+  position: fixed;
+}
+header div {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+header li {
+  list-style: none;
+}
+header li a {
+  font-family: "Montserrat";
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+  padding: 2.5rem 1rem;
+  font-weight: 700;
+  font-size: 1.06rem;
+  line-height: 1.43rem;
+}
+header ul {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.wall {
+  width: 100%;
+  height: 330px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main {
+  margin-top: 2rem;
+  display: flex;
+  padding: 0 1.5rem;
+  flex-direction: column;
+}
+main .tell,
+main .gaz {
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.right, .left {
+  display: flex;
+  padding: 3rem;
+  font-size: 1.25rem;
+}
+.right div .right, .left div .right {
+  max-width: 100%;
+}
+.right section, .left section {
+  margin-left: 7rem;
+}
+.right .push, .left .push {
+  display: flex;
+  margin: 0 0 1rem 0;
+}
+
+div {
+  margin-right: 7rem;
+}
+
+.push {
+  margin-bottom: 1.18rem;
+  display: flex;
+  margin-right: 0;
+}
+
+article {
+  margin: 2rem 0;
+}
+article div {
+  max-width: 775px;
+}
+article div h2 {
+  padding: 1rem 0;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  line-height: 41px;
+  font-weight: 700;
+}
+article .pushT, article .pushA, article .pushG {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  line-height: 21px;
+  font-weight: 500;
+  font-size: 1.12rem;
+  letter-spacing: 3px;
+  padding: 0.75rem 1rem;
+  margin-right: 10px;
+}
+article .pushT {
+  background-color: #D6D5A8;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+article .pushA, article .pushG {
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+article .pushA {
+  background-color: #1B2430;
+}
+article .pushG {
+  background-color: #816797;
+}
+article img {
+  width: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+article p {
+  text-align: justify;
+}
+
+.left, .right:nth-of-type(even) {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+article h2 {
+  margin-bottom: 0.75rem;
+}
+
+.mid {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+footer {
+  background: #1B2430;
+}
+footer section {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */

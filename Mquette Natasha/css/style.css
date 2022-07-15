@@ -1,0 +1,73 @@
+* {
+  margin: auto;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 0.87rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.2px;
+  color: #737373;
+  text-decoration: none;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: block;
+  background-color: white;
+  padding: 10px;
+}
+header nav {
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+}
+header nav h2 {
+  color: #252B42;
+  text-align: center;
+}
+header nav .links {
+  display: flex;
+  list-style-type: none;
+}
+header nav .links li {
+  width: 15%;
+  display: flex;
+}
+header nav .links a {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+header nav .user {
+  min-width: 200px;
+  display: flex;
+}
+
+nav {
+  max-width: 1100px;
+}
+
+.push {
+  border-radius: 5px;
+  background: #96bb7c;
+  background-color: #85a66e;
+}
+
+.maindiv {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
